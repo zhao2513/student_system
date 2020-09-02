@@ -1,0 +1,34 @@
+
+#my-page{
+	padding: 0;
+	margin:0;
+	list-style: none;
+	width: 100%;
+	text-align: center;
+
+}
+#my-page .active-page{
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+
+.page{
+	display: inline-block;
+	padding: 3px 10px;
+    margin: 0 10px;
+    color: #337ab7;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.page:hover{
+	color: #23527c;
+    background-color: #eee;
+    border-color: #ddd
+}
+
+.sport{
+	display: inline-block;
+}
